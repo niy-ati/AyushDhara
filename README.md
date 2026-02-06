@@ -19,22 +19,11 @@ AyushDhara AI addresses the **Trust Deficit** and **Accessibility Gap** in India
 
 ---
 
-## ✨ Core Features
-
-### 1. 🧘 Conversational Prakriti Assessment (B2C)
-An AI-driven interview to determine a user's *Vata/Pitta/Kapha* constitution, delivering hyper-personalized preventative care plans based on lifestyle data.
-
-### 2. 🛡️ Grounded Health Advisory (RAG)
-Powered by **Amazon Bedrock (Claude 3.5 Sonnet)** and **Knowledge Bases**, ensuring health guidance is strictly retrieved from verified AYUSH datasets to eliminate AI hallucinations.
-
-### 3. 🛰️ Sentinel Dashboard (B2G)
-A public health surveillance engine that anonymizes and aggregates community symptom data to visualize disease hotspots for government officials, transforming reactive systems into proactive ones.
-
----
-
 ## 🏗️ Technical Architecture
+
 AyushDhara AI utilizes a highly scalable, serverless event-driven architecture designed for the "Next Billion Users."
 
+```mermaid
 graph TD
     %% User Layer
     User((User Device)) -- "Voice/Text" --> API[Amazon API Gateway]
@@ -53,6 +42,14 @@ graph TD
     
     %% Impact Layer
     DDB --> Sentinel[Sentinel Public Impact Dashboard]
+
+    %% Styling
+    style User fill:#F0F4F1,stroke:#2D5A27,stroke-width:2px
+    style Sentinel fill:#2D5A27,stroke:#fff,color:#fff
+    style Bedrock fill:#FF9900,stroke:#232F3E,color:#fff
+    style Knowledge fill:#F0F4F1,stroke:#2D5A27
+    style OS fill:#F0F4F1,stroke:#2D5A27
+    style DDB fill:#F0F4F1,stroke:#2D5A27
 
     %% Styling
     style User fill:#F0F4F1,stroke:#2D5A27,stroke-width:2px
