@@ -50,13 +50,7 @@ graph TD
     style Knowledge fill:#F0F4F1,stroke:#2D5A27
     style OS fill:#F0F4F1,stroke:#2D5A27
     style DDB fill:#F0F4F1,stroke:#2D5A27
-
-    %% Styling
-    style User fill:#F0F4F1,stroke:#2D5A27,stroke-width:2px
-    style Sentinel fill:#2D5A27,stroke:#fff,color:#fff
-    style Bedrock fill:#FF9900,stroke:#232F3E,color:#fff
-
-- **AI/LLM:** Amazon Bedrock (Claude 3.5 Sonnet) using Retrieval-Augmented Generation (RAG).
+    - **AI/LLM:** Amazon Bedrock (Claude 3.5 Sonnet) using Retrieval-Augmented Generation (RAG).
 - **Voice/NLP:** Amazon Transcribe (Indic accents) & Amazon Polly (Natural Indian voices).
 - **Data Layer:** Amazon DynamoDB (Single-Table Design) & OpenSearch Serverless (Vector Store).
 - **Compute:** AWS Lambda (Node.js 20.x) & Amazon API Gateway.
