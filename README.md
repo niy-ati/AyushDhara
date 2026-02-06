@@ -35,7 +35,8 @@ A public health surveillance engine that anonymizes and aggregates community sym
 ## 🏗️ Technical Architecture
 AyushDhara AI utilizes a highly scalable, serverless event-driven architecture designed for the "Next Billion Users."
 
-![Architecture](./architecture.png)
+![ Architecture diagram saved as architecture.png
+](./architecture.png)
 
 - **AI/LLM:** Amazon Bedrock (Claude 3.5 Sonnet) using Retrieval-Augmented Generation (RAG).
 - **Voice/NLP:** Amazon Transcribe (Indic accents) & Amazon Polly (Natural Indian voices).
