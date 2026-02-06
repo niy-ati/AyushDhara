@@ -22,33 +22,6 @@ AyushDhara AI addresses the **Trust Deficit** and **Accessibility Gap** in India
 ## 🏗️ Technical Architecture
 
 AyushDhara AI utilizes a highly scalable, serverless event-driven architecture designed for the "Next Billion Users."
-```mermaid
-graph TD
-    %% User Layer
-    User((User Device)) -- "Voice/Text" --> API[Amazon API Gateway]
-    
-    %% Logic Layer
-    API --> Lambda[AWS Lambda Orchestrator]
-    
-    %% AI/NLP Layer
-    Lambda --> Transcribe[Amazon Transcribe / Polly]
-    Lambda --> Bedrock[Amazon Bedrock Claude 3.5]
-    
-    %% Data Layer
-    Bedrock --> Knowledge[RAG: AYUSH Knowledge Base]
-    Bedrock --> OS[OpenSearch Serverless]
-    Lambda --> DDB[(DynamoDB: Patient Records)]
-    
-    %% Impact Layer
-    DDB --> Sentinel[Sentinel Public Impact Dashboard]
-
-    %% Styling
-    style User fill:#F0F4F1,stroke:#2D5A27,stroke-width:2px
-    style Sentinel fill:#2D5A27,stroke:#fff,color:#fff
-    style Bedrock fill:#FF9900,stroke:#232F3E,color:#fff
-    style Knowledge fill:#F0F4F1,stroke:#2D5A27
-    style OS fill:#F0F4F1,stroke:#2D5A27
-    style DDB fill:#F0F4F1,stroke:#2D5A27
 
 ### 🛠️ The Tech Stack
 - **AI/LLM:** Amazon Bedrock (Claude 3.5 Sonnet) using Retrieval-Augmented Generation (RAG).
