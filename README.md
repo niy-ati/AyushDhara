@@ -1,4 +1,4 @@
-# 🌿 AyushDhara AI: Modernizing 5,000 Years of AYUSH Wisdom
+# AyushDhara AI: Modernizing 5,000 Years of AYUSH Wisdom
 
 [![AWS Powered](https://img.shields.io/badge/AWS-Powered-orange?logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
 [![Track](https://img.shields.io/badge/Track-Communities_%26_Public_Impact-green)](https://aws.amazon.com/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 The Vision & Problem Statement
+## The Vision & Problem Statement
 AyushDhara AI addresses the **Trust Deficit** and **Accessibility Gap** in Indian healthcare. With 70% of India's population in rural areas and practitioners concentrated in urban centers, our solution provides a "Health Guardian" in every pocket, grounded in verified AYUSH scriptures.
 
 ### 📊 Impact Metrics
@@ -19,11 +19,11 @@ AyushDhara AI addresses the **Trust Deficit** and **Accessibility Gap** in India
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 AyushDhara AI utilizes a highly scalable, serverless event-driven architecture designed for the "Next Billion Users."
 
-### 🛠️ The Tech Stack
+### The Tech Stack
 - **AI/LLM:** Amazon Bedrock (Claude 3.5 Sonnet) using Retrieval-Augmented Generation (RAG).
 - **Voice/NLP:** Amazon Transcribe (Indic accents) & Amazon Polly (Natural Indian voices).
 - **Data Layer:** Amazon DynamoDB (Single-Table Design) & OpenSearch Serverless (Vector Store).
@@ -32,20 +32,20 @@ AyushDhara AI utilizes a highly scalable, serverless event-driven architecture d
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
-### 1. 🧘 Conversational Prakriti Assessment (B2C)
+### 1. Conversational Prakriti Assessment (B2C)
 An AI-driven interview to determine a user's *Vata/Pitta/Kapha* constitution, delivering hyper-personalized preventative care plans based on lifestyle data.
 
-### 2. 🛡️ Grounded Health Advisory (RAG)
+### 2. Grounded Health Advisory (RAG)
 Powered by **Amazon Bedrock**, ensuring health guidance is strictly retrieved from verified AYUSH datasets to eliminate AI hallucinations.
 
-### 3. 🛰️ Sentinel Dashboard (B2G)
+### 3. Sentinel Dashboard (B2G)
 A public health surveillance engine that anonymizes and aggregates community symptom data to visualize disease hotspots for government officials.
 
 ---
 
-## ⚖️ Safety & Compliance (Responsible AI)
+## Safety & Compliance (Responsible AI)
 To ensure "Direct Selection" in the hackathon, we have prioritized ethics and safety:
 
 - **Emergency Hand-Off:** A dedicated `lib/safety.ts` layer intercepts "Red Flag" symptoms (e.g., chest pain, breathing difficulty) to immediately direct users to **108 Emergency Services**.
@@ -54,7 +54,7 @@ To ensure "Direct Selection" in the hackathon, we have prioritized ethics and sa
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 20+
